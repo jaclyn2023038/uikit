@@ -1,0 +1,159 @@
+/*google fonts*/
+	@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Notable&display=swap');
+/* link components */
+	@import url('components/container.css');
+	@import url('components/avatar.css');
+	@import url('components/button-text.css');
+	@import url('components/gradient-button.css');
+	@import url('components/banner.css');
+	@import url('components/card.css');
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+body{
+	font-family: 'lato', sans-serif;
+	font-size: 50px;
+	background: rgb(235,235,235);
+}
+
+h1, h2, h3{
+	font-family: 'Notable', sans-serif;
+}
+
+h1{
+	font-size: 60px;
+	margin: 10px;
+	letter-spacing: 5px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.cards{
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.cards h2{
+	font-size: 30px;
+	margin: 16px 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.cards p{
+	margin: 22px 0;
+	font-size: 20px;
+}
+
+.cards a{
+	font-size: 17px;
+	background: black;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border:	1px solid black;
+	padding: 15px 0;
+	border-radius: 25px;
+	transition: .3s ease;
+}
+
+.cards a:hover{
+	border-radius: 4px;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 4px;
+	transition: all .3s ease;
+	box-shadow: 10px 5px 10px grey;
+}
+
+.content .fab{
+	font-size: 70px;
+	margin: 15px 0;
+}
+
+.content > *{
+	flex: 1 1 100%;
+}
+
+.content:hover{
+	color: white;
+}
+
+.content:hover a{
+	border-color: white;
+	background: white;
+}
+
+.content-1:hover{
+	border-color: #3f87a6;
+	background: #3f87a6;
+}
+
+.content-1:hover a{
+	color: #3f87a6;
+}
+
+.content-2:hover{
+	border-color: #E1306C;
+	background: #E1306C;
+}
+
+.content-2:hover a{
+	color: #E1306C;
+}
+
+.content-3:hover{
+	border-color: #ff0000;
+	background: #ff0000;
+}
+
+.content-3:hover a{
+	color: #ff0000;
+}
+
+@media (max-width: 900px){
+	.cards{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.list-inline{
+	list-style: none;
+	margin: 0;
+}
+
+.list-inline li{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.box{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.box1{
+	margin-left: 50px;
+}
+
